@@ -1,0 +1,532 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .roi_container{
+    width: 100%;
+}
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .menu-area ul li a {
+        min-width: 100px; 
+    }
+    .roi_container{
+        width: 100%;
+    }
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .version-blk { 
+        margin-top: 30px;
+    }
+    .version-blk.canter{
+        height: 724px;
+        margin-top: 30px;
+    }
+    .version-area h4 {
+        margin: 0;
+    }
+    .bottom-actions {
+        margin-top: 89px;
+        margin-bottom: 130px;
+    }
+    .dtl-blk img {
+        height: 100px;
+        margin-bottom: 30px;
+    }
+    .dtl-blk h4 { 
+        margin-bottom: 10px;
+    }
+    .dtl-blk p { 
+        line-height: 20px;
+    }
+    .dtl-blk { 
+        min-height: 380px; 
+    }
+    .stp-wrp {
+        margin-bottom: 30px;
+    }
+    a.btn-two { 
+        padding: 0 20px; 
+    }
+   .business-blk.f-child{
+        margin-top: 30px;
+    }
+    .header-area {
+        padding: 15px 0;
+    }
+    .top_section.tr-tr_top span{
+    padding: 0 28px;
+}
+
+/*=============================
+            SINGUP PAGE 
+ ===================================*/
+ .sing_logo{padding-bottom: 100px;}
+ .sing_top_cont h1{
+    font-size: 30px;
+}
+
+.sing_up_right{
+    width: 320px;
+    margin: auto;
+    margin-top: 160px;
+}
+.sing_up_form{
+    padding: 30px 30px 40px;
+}
+.sing_up_form h2{
+    font-size: 32px;
+    margin-bottom: 0;
+}
+.sing_up_right p{
+    margin-top: 10px;
+}
+/*=============================
+    SINGUP PAGE END && ROI PAGE START
+     ===================================*/
+     .roi_header {
+        margin-left: 30px;
+    }
+    .roi_content {
+        padding: 120px 0 180px;
+        width: 100%;
+    }
+     .roi_content h1 {
+        font-size: 35px;
+        width: 63%;
+        margin: auto;
+    }
+    
+    .roi_content p {
+        font-size: 16px;
+    }
+    
+    .roi_form label input {line-height: 24px;}
+    
+    .roi_form {
+        width: 500px;
+        margin: auto;
+    }
+    
+    .roi_form label svg, .roi_form label i {
+        top: 17px;
+        font-size: 15px;
+    }
+    
+    .roi_form label input::placeholder {
+        font-size: 14px;
+    }
+    
+    .roi_form a.theme-btn.roi_btn {
+        font-size: 14px;
+        margin-top: 10px;
+        padding: 18px 22px;
+    }
+    .roi_container{
+        width: 100%;
+    }
+    section.Roi {
+        padding-bottom: 100px;
+    }
+    
+    .version-blk.Professional-blk .v-bottom.pro-v-bottom.jp-btn {
+        bottom: 8px !important;
+    }
+     /*=============================
+        SINGUP PAGE END && ROI PAGE START
+        ===================================*/
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .version-blk { 
+        margin-top: 30px;
+    }
+    .version-blk.canter{
+        height: 724px;
+        margin-top: 30px;
+    }
+    .version-area h4 {
+        margin: 0;
+    }
+    a.v_btn {
+        font-size: 20px;
+    }
+    .bottom-actions {
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
+    .top-content a.theme-btn { 
+        margin-top: 10px;
+    }
+    .step {
+        display: block;
+        align-items: center;
+        border-radius: 5px;
+        padding: 25px 20px;
+        margin-bottom: 40px;
+    }
+    .step.right .step-img {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .step.right .step-img img,
+    .step .step-img img {
+        width: 115px;
+    }
+    .step-img { 
+        margin-bottom: 20px;
+    }
+    .step-content h4 { 
+        font-size: 18px; 
+        margin-bottom: 15px; 
+    }
+    body { 
+        font-size: 15px;
+        line-height: 24px; 
+        font-weight: 500;
+    }
+    .fetures-area {
+        margin: 60px 0;
+    }
+    .bottom-actions a.theme-btn {
+        margin: 5px 0px;
+    }
+    .footer-area p {
+        font-size: 10px;
+        margin-bottom: 10px;
+        line-height: 15px;
+    }
+    .step-content h4 a {
+        position: absolute;
+        top: -100px;
+        left: 120px;
+        display: inline-block;
+    }
+    .hero-area .hero-img { 
+        width: 100%; 
+    }
+    .hero-wrp h1 {
+        font-size: 26px; 
+    }
+    .hero-wrp a.btn-two.active {
+        margin-bottom: 15px;
+    }
+    a.btn-two { 
+        height: 45px;
+        line-height: 45px;
+        border: 1px solid #fff;
+        padding: 0 10px; 
+        font-family: roboto; 
+    }
+    .stp-img { 
+        height: auto;  
+    }
+    .banner-wrp h1 {
+        font-size: 30px; 
+        font-family: roboto; 
+        margin: 0;
+        margin-top: 25px;
+    }
+    .business-blk.f-child {
+        margin-top: 30px;
+    }
+    .business-area {
+        padding: 50px 0; 
+    }
+    .stp-img.blank {
+        height: 200px;
+    }
+    .header-area {
+        padding: 15px 0;
+    }
+    .top-area .top_area_img img.ccimg {
+        width: 300px;
+    }
+    .top_area_img a {
+        width: 118px;
+    }
+    /* Cookie section */
+    .cookie-area{}
+    .cookie-wrp{
+    display: inline-block;
+}
+    .cookie-wrp p{
+    font-size: 10px;
+    line-height: 1.5;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 7px;
+}  
+.cookie-wrp a.ck-btn{
+    font-size: 12px;
+    max-width: 100px;
+    height: 30px;
+    line-height: 28px;
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+}
+
+    /* Cookie section End*/
+
+
+
+
+
+    /* Display PAGE  & SLOW PC PAGE  */
+    section.Display_section {
+        overflow: hidden;
+    }
+    .logo{
+    padding: 20px;
+}
+.top_section h1{
+    font-size: 24px;
+    line-height: 1.3;
+    width: 314px;
+}
+.top_section span{
+    width: 290px;
+    font-size: 10px;
+    height: max-content;
+    margin-bottom: 25px;
+    padding-left: 9px;
+}
+.mid_section ul li p{
+    font-size: 13px;
+}
+.mid_section a{
+    font-size: 13px;
+    width: 180px;
+    height: 40px;
+    line-height: 39px;
+    margin-bottom: 10px;
+}
+.mid_section small{
+    font-size: 8px;
+}
+.mid_section ul{
+    margin-bottom: 20px;
+}
+.bottom_section .reviews{
+    width: 150px;
+    margin-left: 15px;
+}
+.bottom_section .feature_in strong{
+    font-size: 12px;
+}
+.bottom_section .feature_in{
+    margin-bottom: 60px;
+}
+
+/*====== pt-br====== */
+
+.pt_br_bottom .feature_in img{
+    margin-left: 0;
+}
+.pt_br_mid a{
+    width: 235px;
+    margin-left: 20px;
+}
+.pt_br_mid small{
+    margin-left: 30px;
+}
+.pt_br_bottom .reviews{
+    margin-left: 75px;
+}
+.top_section.tr-tr_top span{
+    padding: 0 13px;
+}
+/* ==PT_BR page end====== */
+
+/* it-it ======= */
+.it_it_mid a{
+    width: 240px;
+}
+.it_it_mid small{
+    width: 200px;
+    margin-left: 55px;
+}
+/* it-it end======= */
+
+
+
+
+/* Display PAGE  & SLOW PC PAGE & PT_BR PAGE end */
+
+/*=============================
+            SINGUP PAGE 
+ ===================================*/
+ .sing_logo{padding-bottom: 100px;}
+ .sing_top_cont h1{
+    font-size: 30px;
+}
+.sing_up_left{
+    padding-bottom: 25px;
+}
+.sing_top_cont img{
+    width: 260px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.sine_up_mid ul li img{
+    width: 30px;
+    height: 17px;
+}
+.sine_up_mid ul li p{
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.sing_up_right{
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+.sing_up_form{
+    padding: 30px 30px 40px;
+}
+.sing_up_form h2{
+    font-size: 32px;
+    margin-bottom: 0;
+}
+#talk_to_us label{
+    font-size: 13px;
+}
+.sing_up_right p{
+    margin-top: 10px;
+    font-size: 11px;
+}
+a.send.theme-btn{
+    width: 100px;
+    font-size: 15px;
+}
+a#contact_s {
+    margin-left: 32px;
+}
+p.s_up_right_top {
+    margin-left: 30px;
+}
+#talk_to_us select{
+    font-size: 13px;
+}
+.sing_top_cont.roi_top_cont h1{
+    font-size: 35px;
+}
+/*=============================
+    SINGUP PAGE END && ROI PAGE START
+     ===================================*/
+
+ .roi_content h1 {
+    font-size: 30px;
+    margin: auto;
+    width: 320px;
+}
+
+.roi_content p {
+    font-size: 13px;
+}
+
+.roi_form label input {line-height: 24px;}
+
+.roi_form {
+    width: 300px;
+    margin: auto;
+}
+
+.roi_form label svg, .roi_form label i {
+    top: 17px;
+    font-size: 15px;
+}
+
+.roi_form label input::placeholder {
+    font-size: 14px;
+}
+
+.roi_form a.theme-btn.roi_btn {
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 18px 22px;
+}
+.roi_container{
+    width: 100%;
+}
+.roi_header {
+    margin-left: 30px;
+}
+.roi_content {
+    padding: 120px 0 180px;
+    width: 100%;
+}
+
+
+ /*=============================
+    ROI PAGE END && Confirmation PAGE START
+    ===================================*/
+    .Confirmation_top strong {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    
+    .Confirmation_top p {
+        font-size: 14px;
+    }
+    
+    .Confirmation_top ul li p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    
+    a.trial.theme-btn {
+        font-size: 14px;
+        width: 230px;
+    }
+    .Confirmation_btm {
+        margin: 20px 0 30px;
+    }
+    
+    .Confirmation_btm p {
+        margin-bottom: 40px;
+    }
+    
+    .Confirmation_btm a {
+        margin: unset;
+    }
+    section.Roi {
+        padding-bottom: 100px;
+    }
+    
+/*=============================
+    Confirmation PAGE END &&  START
+    ===================================*/
+} 
+
+
+/* Large Device */
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .Display_section .container,
+    .sing_up .container{
+    width: 450px;
+    margin: auto;
+}
+.top-area .top_area_img img.ccimg {
+    width: 375px;
+}
+.top_area_img a {
+    width: 146px;
+}
+.sing_up_form {
+    padding: 30px 50px 40px;
+}
+.sing_top_cont img{}
+}
